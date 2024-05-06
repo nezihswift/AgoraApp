@@ -2,24 +2,17 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>UIApplicationSceneManifest</key>
-	<dict>
-		<key>UIApplicationSupportsMultipleScenes</key>
-		<false/>
-		<key>UISceneConfigurations</key>
-		<dict>
-			<key>UIWindowSceneSessionRoleApplication</key>
-			<array>
-				<dict>
-					<key>UISceneConfigurationName</key>
-					<string>Default Configuration</string>
-					<key>UISceneDelegateClassName</key>
-					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
-					<key>UISceneStoryboardFile</key>
-					<string>Main</string>
-				</dict>
-			</array>
-		</dict>
-	</dict>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Görüşme yapabilmeniz için mikrofon izninizin açık olması gerekmektedir</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Görüşme yapabilmeniz için kamera izninizin açık olması gerekmektedir</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Sen-Medium.ttf</string>
+		<string>Sen-Bold.ttf</string>
+		<string>Sen-Regular.ttf</string>
+		<string>Sen-ExtraBold.ttf</string>
+		<string>Sen-SemiBold.ttf</string>
+	</array>
 </dict>
 </plist>

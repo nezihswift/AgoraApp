@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Sen-Regular.ttf">
+            <string>Sen-Regular</string>
+        </array>
+        <array key="Sen-SemiBold.ttf">
+            <string>Sen-SemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Add Channel View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="AddChannelView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="AddChannelViewController" customModule="AgoraApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="OCT-6u-2CK">
+                                <rect key="frame" x="16" y="371.66666666666669" width="361" height="108.66666666666669"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="3i8-0y-PQl">
+                                        <rect key="frame" x="0.0" y="0.0" width="361" height="59.333333333333336"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kanal Adı" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L98-qR-rbu">
+                                                <rect key="frame" x="0.0" y="0.0" width="361" height="19.333333333333332"/>
+                                                <fontDescription key="fontDescription" name="Sen-SemiBold" family="Sen" pointSize="16"/>
+                                                <color key="textColor" name="TitleColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="J7k-oS-uPb">
+                                                <rect key="frame" x="0.0" y="25.333333333333314" width="361" height="34"/>
+                                                <color key="backgroundColor" name="BackgroundColor"/>
+                                                <color key="textColor" name="TitleColor"/>
+                                                <fontDescription key="fontDescription" name="Sen-Regular" family="Sen" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7he-Wa-G9T">
+                                        <rect key="frame" x="0.0" y="74.333333333333314" width="361" height="34.333333333333343"/>
+                                        <color key="tintColor" name="AccentColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Arama Başlat"/>
+                                        <connections>
+                                            <action selector="addChannelAction" destination="Y6W-OH-hqX" eventType="touchUpInside" id="7GD-cO-yDx"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yUS-eT-Wei">
+                                <rect key="frame" x="16" y="720.33333333333337" width="361" height="67.666666666666629"/>
+                                <string key="text">Token serveri kurulmadığından ötürü statik token ile istek atılmaktadır. Bu sebepten ötürü kanal adı sadece kozmetik amaçlı, bütün istekler aynı yere bağlanmakta</string>
+                                <fontDescription key="fontDescription" name="Sen-Regular" family="Sen" pointSize="14"/>
+                                <color key="textColor" name="TitleColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" name="BackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="OCT-6u-2CK" secondAttribute="trailing" constant="16" id="6KC-rP-Eew"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="yUS-eT-Wei" secondAttribute="bottom" constant="30" id="XL2-5q-WFi"/>
+                            <constraint firstItem="OCT-6u-2CK" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="aZI-jW-lhE"/>
+                            <constraint firstItem="yUS-eT-Wei" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="bHQ-H3-5o7"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="yUS-eT-Wei" secondAttribute="trailing" constant="16" id="hsX-Z5-L89"/>
+                            <constraint firstItem="OCT-6u-2CK" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="r40-cx-KnY"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="textField" destination="J7k-oS-uPb" id="Kqy-0S-lsf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="-2"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.32899999618530273" blue="0.57499998807907104" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="BackgroundColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TitleColor">
+            <color red="0.039215686274509803" green="0.039215686274509803" blue="0.039215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

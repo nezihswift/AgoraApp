@@ -7,23 +7,100 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9DBA917B2BE3D584005AF184 /* Sen-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DBA91752BE3D584005AF184 /* Sen-SemiBold.ttf */; };
+		9DBA917C2BE3D584005AF184 /* Sen-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DBA91762BE3D584005AF184 /* Sen-Regular.ttf */; };
+		9DBA917D2BE3D584005AF184 /* Sen-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DBA91772BE3D584005AF184 /* Sen-ExtraBold.ttf */; };
+		9DBA917E2BE3D584005AF184 /* Sen-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DBA91782BE3D584005AF184 /* Sen-Medium.ttf */; };
+		9DBA917F2BE3D584005AF184 /* Sen-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DBA91792BE3D584005AF184 /* Sen-Bold.ttf */; };
+		9DBA91802BE3D584005AF184 /* AppFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBA917A2BE3D584005AF184 /* AppFont.swift */; };
+		9DCC54BD2BE6697000AAB9DA /* PermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCC54BC2BE6697000AAB9DA /* PermissionManager.swift */; };
+		9DCC54E32BE66D0100AAB9DA /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCC54E22BE66D0100AAB9DA /* HomeViewModel.swift */; };
+		9DCC54E52BE66D1400AAB9DA /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCC54E42BE66D1400AAB9DA /* BaseViewModel.swift */; };
+		9DCC54EB2BE66F6800AAB9DA /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 9DCC54EA2BE66F6800AAB9DA /* Lottie */; };
+		9DCC54EF2BE66F8900AAB9DA /* BottomAlertPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCC54EE2BE66F8900AAB9DA /* BottomAlertPopupViewController.swift */; };
+		9DCC54F12BE6701900AAB9DA /* String + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCC54F02BE6701900AAB9DA /* String + Ext.swift */; };
+		9DCC54F72BE670A100AAB9DA /* warning.json in Resources */ = {isa = PBXBuildFile; fileRef = 9DCC54F32BE670A100AAB9DA /* warning.json */; };
+		9DCC54F82BE670A100AAB9DA /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 9DCC54F42BE670A100AAB9DA /* loading.json */; };
+		9DCC54F92BE670A100AAB9DA /* failed.json in Resources */ = {isa = PBXBuildFile; fileRef = 9DCC54F52BE670A100AAB9DA /* failed.json */; };
+		9DCC54FA2BE670A100AAB9DA /* successful.json in Resources */ = {isa = PBXBuildFile; fileRef = 9DCC54F62BE670A100AAB9DA /* successful.json */; };
+		9DCC54FE2BE6738000AAB9DA /* AddChannelView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DCC54FD2BE6738000AAB9DA /* AddChannelView.storyboard */; };
+		9DCC55002BE6738D00AAB9DA /* AddChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCC54FF2BE6738D00AAB9DA /* AddChannelViewController.swift */; };
+		9DCC55032BE6E24600AAB9DA /* ChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCC55022BE6E24600AAB9DA /* ChannelViewController.swift */; };
+		9DCC55062BE6E2F400AAB9DA /* AgoraAppGroupDataHelper in Frameworks */ = {isa = PBXBuildFile; productRef = 9DCC55052BE6E2F400AAB9DA /* AgoraAppGroupDataHelper */; };
+		9DCC55082BE6E2F400AAB9DA /* AgoraBroadcastExtensionHelper in Frameworks */ = {isa = PBXBuildFile; productRef = 9DCC55072BE6E2F400AAB9DA /* AgoraBroadcastExtensionHelper */; };
+		9DCC550A2BE6E2F400AAB9DA /* AgoraUIKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9DCC55092BE6E2F400AAB9DA /* AgoraUIKit */; };
+		9DCC550D2BE6E36400AAB9DA /* ChannelView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DCC550C2BE6E36400AAB9DA /* ChannelView.storyboard */; };
+		9DCC550F2BE6E52400AAB9DA /* ChannelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCC550E2BE6E52400AAB9DA /* ChannelViewModel.swift */; };
+		9DCC55192BE6F2B500AAB9DA /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCC55182BE6F2B500AAB9DA /* Channel.swift */; };
+		9DCC551D2BE6F46400AAB9DA /* ChannelRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCC551C2BE6F46400AAB9DA /* ChannelRepository.swift */; };
+		9DCC551F2BE6F85B00AAB9DA /* UsernameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCC551E2BE6F85B00AAB9DA /* UsernameManager.swift */; };
+		9DCC55212BE6F97200AAB9DA /* NoErrorResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCC55202BE6F97200AAB9DA /* NoErrorResult.swift */; };
+		9DCC55242BE6FF1000AAB9DA /* ChannelViewController + AgoreVideoViewerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCC55232BE6FF1000AAB9DA /* ChannelViewController + AgoreVideoViewerDelegate.swift */; };
+		9DCC55272BE7012D00AAB9DA /* HomeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCC55262BE7012D00AAB9DA /* HomeTableCell.swift */; };
+		9DCC55292BE7013900AAB9DA /* HomeTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DCC55282BE7013900AAB9DA /* HomeTableCell.xib */; };
+		9DCC552B2BE79D8B00AAB9DA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCC552A2BE79D8B00AAB9DA /* Constants.swift */; };
+		9DCC552E2BE7A7D200AAB9DA /* PanModal in Frameworks */ = {isa = PBXBuildFile; productRef = 9DCC552D2BE7A7D200AAB9DA /* PanModal */; };
+		9DCC55302BE7AAB700AAB9DA /* Date + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCC552F2BE7AAB700AAB9DA /* Date + Ext.swift */; };
 		9DD9A6942BE3BE79003E5DC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD9A6932BE3BE79003E5DC3 /* AppDelegate.swift */; };
 		9DD9A6962BE3BE79003E5DC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD9A6952BE3BE79003E5DC3 /* SceneDelegate.swift */; };
-		9DD9A6982BE3BE79003E5DC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD9A6972BE3BE79003E5DC3 /* ViewController.swift */; };
-		9DD9A69B2BE3BE79003E5DC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DD9A6992BE3BE79003E5DC3 /* Main.storyboard */; };
 		9DD9A69D2BE3BE7A003E5DC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DD9A69C2BE3BE7A003E5DC3 /* Assets.xcassets */; };
 		9DD9A6A02BE3BE7A003E5DC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DD9A69E2BE3BE7A003E5DC3 /* LaunchScreen.storyboard */; };
+		9DD9A6B22BE3BED7003E5DC3 /* Localize_Swift in Frameworks */ = {isa = PBXBuildFile; productRef = 9DD9A6B12BE3BED7003E5DC3 /* Localize_Swift */; };
+		9DD9A6B42BE3BEF6003E5DC3 /* NavigationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD9A6B32BE3BEF6003E5DC3 /* NavigationManager.swift */; };
+		9DD9A6B72BE3BF33003E5DC3 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD9A6B62BE3BF33003E5DC3 /* BaseNavigationController.swift */; };
+		9DD9A6BE2BE3C193003E5DC3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD9A6BD2BE3C193003E5DC3 /* LoginViewController.swift */; };
+		9DD9A6C02BE3C1BC003E5DC3 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD9A6BF2BE3C1BC003E5DC3 /* BaseViewController.swift */; };
+		9DD9A6C22BE3C1DB003E5DC3 /* UIColor + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD9A6C12BE3C1DB003E5DC3 /* UIColor + Ext.swift */; };
+		9DD9A6C52BE3C29B003E5DC3 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9DD9A6C42BE3C29B003E5DC3 /* IQKeyboardManagerSwift */; };
+		9DD9A6C82BE3C492003E5DC3 /* LoginView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DD9A6C72BE3C492003E5DC3 /* LoginView.storyboard */; };
+		9DD9A6CA2BE3C4C3003E5DC3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD9A6C92BE3C4C3003E5DC3 /* HomeViewController.swift */; };
+		9DD9A6CC2BE3C59E003E5DC3 /* HomeView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DD9A6CB2BE3C59E003E5DC3 /* HomeView.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9DBA91752BE3D584005AF184 /* Sen-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sen-SemiBold.ttf"; sourceTree = "<group>"; };
+		9DBA91762BE3D584005AF184 /* Sen-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sen-Regular.ttf"; sourceTree = "<group>"; };
+		9DBA91772BE3D584005AF184 /* Sen-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sen-ExtraBold.ttf"; sourceTree = "<group>"; };
+		9DBA91782BE3D584005AF184 /* Sen-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sen-Medium.ttf"; sourceTree = "<group>"; };
+		9DBA91792BE3D584005AF184 /* Sen-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sen-Bold.ttf"; sourceTree = "<group>"; };
+		9DBA917A2BE3D584005AF184 /* AppFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppFont.swift; sourceTree = "<group>"; };
+		9DCC54BC2BE6697000AAB9DA /* PermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionManager.swift; sourceTree = "<group>"; };
+		9DCC54E22BE66D0100AAB9DA /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		9DCC54E42BE66D1400AAB9DA /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		9DCC54EE2BE66F8900AAB9DA /* BottomAlertPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomAlertPopupViewController.swift; sourceTree = "<group>"; };
+		9DCC54F02BE6701900AAB9DA /* String + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Ext.swift"; sourceTree = "<group>"; };
+		9DCC54F32BE670A100AAB9DA /* warning.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = warning.json; sourceTree = "<group>"; };
+		9DCC54F42BE670A100AAB9DA /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
+		9DCC54F52BE670A100AAB9DA /* failed.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = failed.json; sourceTree = "<group>"; };
+		9DCC54F62BE670A100AAB9DA /* successful.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = successful.json; sourceTree = "<group>"; };
+		9DCC54FD2BE6738000AAB9DA /* AddChannelView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddChannelView.storyboard; sourceTree = "<group>"; };
+		9DCC54FF2BE6738D00AAB9DA /* AddChannelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChannelViewController.swift; sourceTree = "<group>"; };
+		9DCC55022BE6E24600AAB9DA /* ChannelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelViewController.swift; sourceTree = "<group>"; };
+		9DCC550C2BE6E36400AAB9DA /* ChannelView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChannelView.storyboard; sourceTree = "<group>"; };
+		9DCC550E2BE6E52400AAB9DA /* ChannelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelViewModel.swift; sourceTree = "<group>"; };
+		9DCC55182BE6F2B500AAB9DA /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		9DCC551C2BE6F46400AAB9DA /* ChannelRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelRepository.swift; sourceTree = "<group>"; };
+		9DCC551E2BE6F85B00AAB9DA /* UsernameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameManager.swift; sourceTree = "<group>"; };
+		9DCC55202BE6F97200AAB9DA /* NoErrorResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoErrorResult.swift; sourceTree = "<group>"; };
+		9DCC55232BE6FF1000AAB9DA /* ChannelViewController + AgoreVideoViewerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChannelViewController + AgoreVideoViewerDelegate.swift"; sourceTree = "<group>"; };
+		9DCC55262BE7012D00AAB9DA /* HomeTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableCell.swift; sourceTree = "<group>"; };
+		9DCC55282BE7013900AAB9DA /* HomeTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableCell.xib; sourceTree = "<group>"; };
+		9DCC552A2BE79D8B00AAB9DA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9DCC552F2BE7AAB700AAB9DA /* Date + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + Ext.swift"; sourceTree = "<group>"; };
 		9DD9A6902BE3BE79003E5DC3 /* AgoraApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgoraApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DD9A6932BE3BE79003E5DC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DD9A6952BE3BE79003E5DC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9DD9A6972BE3BE79003E5DC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9DD9A69A2BE3BE79003E5DC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DD9A69C2BE3BE7A003E5DC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DD9A69F2BE3BE7A003E5DC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DD9A6A12BE3BE7A003E5DC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DD9A6B32BE3BEF6003E5DC3 /* NavigationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationManager.swift; sourceTree = "<group>"; };
+		9DD9A6B62BE3BF33003E5DC3 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		9DD9A6BD2BE3C193003E5DC3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9DD9A6BF2BE3C1BC003E5DC3 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		9DD9A6C12BE3C1DB003E5DC3 /* UIColor + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Ext.swift"; sourceTree = "<group>"; };
+		9DD9A6C72BE3C492003E5DC3 /* LoginView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginView.storyboard; sourceTree = "<group>"; };
+		9DD9A6C92BE3C4C3003E5DC3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9DD9A6CB2BE3C59E003E5DC3 /* HomeView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeView.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +108,143 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DD9A6B22BE3BED7003E5DC3 /* Localize_Swift in Frameworks */,
+				9DD9A6C52BE3C29B003E5DC3 /* IQKeyboardManagerSwift in Frameworks */,
+				9DCC54EB2BE66F6800AAB9DA /* Lottie in Frameworks */,
+				9DCC55062BE6E2F400AAB9DA /* AgoraAppGroupDataHelper in Frameworks */,
+				9DCC550A2BE6E2F400AAB9DA /* AgoraUIKit in Frameworks */,
+				9DCC55082BE6E2F400AAB9DA /* AgoraBroadcastExtensionHelper in Frameworks */,
+				9DCC552E2BE7A7D200AAB9DA /* PanModal in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9DBA91732BE3D56A005AF184 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9DCC54F22BE6709400AAB9DA /* Assets */,
+				9DBA91742BE3D584005AF184 /* Fonts */,
+				9DCC552A2BE79D8B00AAB9DA /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		9DBA91742BE3D584005AF184 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9DBA91752BE3D584005AF184 /* Sen-SemiBold.ttf */,
+				9DBA91762BE3D584005AF184 /* Sen-Regular.ttf */,
+				9DBA91772BE3D584005AF184 /* Sen-ExtraBold.ttf */,
+				9DBA91782BE3D584005AF184 /* Sen-Medium.ttf */,
+				9DBA91792BE3D584005AF184 /* Sen-Bold.ttf */,
+				9DBA917A2BE3D584005AF184 /* AppFont.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		9DCC54C92BE66BA600AAB9DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DCC54EC2BE66F7200AAB9DA /* Popup */ = {
+			isa = PBXGroup;
+			children = (
+				9DCC54ED2BE66F7900AAB9DA /* BottomAlert */,
+			);
+			path = Popup;
+			sourceTree = "<group>";
+		};
+		9DCC54ED2BE66F7900AAB9DA /* BottomAlert */ = {
+			isa = PBXGroup;
+			children = (
+				9DCC54EE2BE66F8900AAB9DA /* BottomAlertPopupViewController.swift */,
+			);
+			path = BottomAlert;
+			sourceTree = "<group>";
+		};
+		9DCC54F22BE6709400AAB9DA /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9DCC54F52BE670A100AAB9DA /* failed.json */,
+				9DCC54F42BE670A100AAB9DA /* loading.json */,
+				9DCC54F62BE670A100AAB9DA /* successful.json */,
+				9DCC54F32BE670A100AAB9DA /* warning.json */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		9DCC54FB2BE6735600AAB9DA /* AddChannel */ = {
+			isa = PBXGroup;
+			children = (
+				9DCC54FF2BE6738D00AAB9DA /* AddChannelViewController.swift */,
+				9DCC54FD2BE6738000AAB9DA /* AddChannelView.storyboard */,
+			);
+			path = AddChannel;
+			sourceTree = "<group>";
+		};
+		9DCC55012BE6E23B00AAB9DA /* Channel */ = {
+			isa = PBXGroup;
+			children = (
+				9DCC55022BE6E24600AAB9DA /* ChannelViewController.swift */,
+				9DCC550C2BE6E36400AAB9DA /* ChannelView.storyboard */,
+				9DCC550E2BE6E52400AAB9DA /* ChannelViewModel.swift */,
+				9DCC55232BE6FF1000AAB9DA /* ChannelViewController + AgoreVideoViewerDelegate.swift */,
+			);
+			path = Channel;
+			sourceTree = "<group>";
+		};
+		9DCC55172BE6F29C00AAB9DA /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				9DCC55182BE6F2B500AAB9DA /* Channel.swift */,
+			);
+			path = Object;
+			sourceTree = "<group>";
+		};
+		9DCC551A2BE6F44900AAB9DA /* Repo */ = {
+			isa = PBXGroup;
+			children = (
+				9DCC551B2BE6F45200AAB9DA /* Channel */,
+			);
+			path = Repo;
+			sourceTree = "<group>";
+		};
+		9DCC551B2BE6F45200AAB9DA /* Channel */ = {
+			isa = PBXGroup;
+			children = (
+				9DCC551C2BE6F46400AAB9DA /* ChannelRepository.swift */,
+			);
+			path = Channel;
+			sourceTree = "<group>";
+		};
+		9DCC55222BE6FA1B00AAB9DA /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				9DCC55202BE6F97200AAB9DA /* NoErrorResult.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		9DCC55252BE7012200AAB9DA /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9DCC55262BE7012D00AAB9DA /* HomeTableCell.swift */,
+				9DCC55282BE7013900AAB9DA /* HomeTableCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		9DD9A6872BE3BE79003E5DC3 = {
 			isa = PBXGroup;
 			children = (
 				9DD9A6922BE3BE79003E5DC3 /* AgoraApp */,
 				9DD9A6912BE3BE79003E5DC3 /* Products */,
+				9DCC54C92BE66BA600AAB9DA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +259,99 @@
 		9DD9A6922BE3BE79003E5DC3 /* AgoraApp */ = {
 			isa = PBXGroup;
 			children = (
+				9DD9A6A72BE3BE81003E5DC3 /* Data */,
+				9DD9A6A82BE3BE85003E5DC3 /* UI */,
+				9DD9A6AA2BE3BE9A003E5DC3 /* Managers */,
+				9DD9A6A92BE3BE8D003E5DC3 /* Extensions */,
+				9DBA91732BE3D56A005AF184 /* Helpers */,
+				9DD9A6B52BE3BF1C003E5DC3 /* Base */,
 				9DD9A6932BE3BE79003E5DC3 /* AppDelegate.swift */,
 				9DD9A6952BE3BE79003E5DC3 /* SceneDelegate.swift */,
-				9DD9A6972BE3BE79003E5DC3 /* ViewController.swift */,
-				9DD9A6992BE3BE79003E5DC3 /* Main.storyboard */,
 				9DD9A69C2BE3BE7A003E5DC3 /* Assets.xcassets */,
 				9DD9A69E2BE3BE7A003E5DC3 /* LaunchScreen.storyboard */,
 				9DD9A6A12BE3BE7A003E5DC3 /* Info.plist */,
 			);
 			path = AgoraApp;
+			sourceTree = "<group>";
+		};
+		9DD9A6A72BE3BE81003E5DC3 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9DCC55222BE6FA1B00AAB9DA /* Enum */,
+				9DCC551A2BE6F44900AAB9DA /* Repo */,
+				9DCC55172BE6F29C00AAB9DA /* Object */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		9DD9A6A82BE3BE85003E5DC3 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9DCC54EC2BE66F7200AAB9DA /* Popup */,
+				9DD9A6BA2BE3C0A4003E5DC3 /* View */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		9DD9A6A92BE3BE8D003E5DC3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9DD9A6C12BE3C1DB003E5DC3 /* UIColor + Ext.swift */,
+				9DCC54F02BE6701900AAB9DA /* String + Ext.swift */,
+				9DCC552F2BE7AAB700AAB9DA /* Date + Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9DD9A6AA2BE3BE9A003E5DC3 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				9DD9A6B32BE3BEF6003E5DC3 /* NavigationManager.swift */,
+				9DCC54BC2BE6697000AAB9DA /* PermissionManager.swift */,
+				9DCC551E2BE6F85B00AAB9DA /* UsernameManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		9DD9A6B52BE3BF1C003E5DC3 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				9DD9A6B62BE3BF33003E5DC3 /* BaseNavigationController.swift */,
+				9DD9A6BF2BE3C1BC003E5DC3 /* BaseViewController.swift */,
+				9DCC54E42BE66D1400AAB9DA /* BaseViewModel.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		9DD9A6BA2BE3C0A4003E5DC3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9DCC55012BE6E23B00AAB9DA /* Channel */,
+				9DCC54FB2BE6735600AAB9DA /* AddChannel */,
+				9DD9A6BB2BE3C0AC003E5DC3 /* Login */,
+				9DD9A6BC2BE3C0B3003E5DC3 /* Home */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9DD9A6BB2BE3C0AC003E5DC3 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				9DD9A6BD2BE3C193003E5DC3 /* LoginViewController.swift */,
+				9DD9A6C72BE3C492003E5DC3 /* LoginView.storyboard */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		9DD9A6BC2BE3C0B3003E5DC3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9DCC55252BE7012200AAB9DA /* Cell */,
+				9DD9A6C92BE3C4C3003E5DC3 /* HomeViewController.swift */,
+				9DD9A6CB2BE3C59E003E5DC3 /* HomeView.storyboard */,
+				9DCC54E22BE66D0100AAB9DA /* HomeViewModel.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +370,15 @@
 			dependencies = (
 			);
 			name = AgoraApp;
+			packageProductDependencies = (
+				9DD9A6B12BE3BED7003E5DC3 /* Localize_Swift */,
+				9DD9A6C42BE3C29B003E5DC3 /* IQKeyboardManagerSwift */,
+				9DCC54EA2BE66F6800AAB9DA /* Lottie */,
+				9DCC55052BE6E2F400AAB9DA /* AgoraAppGroupDataHelper */,
+				9DCC55072BE6E2F400AAB9DA /* AgoraBroadcastExtensionHelper */,
+				9DCC55092BE6E2F400AAB9DA /* AgoraUIKit */,
+				9DCC552D2BE7A7D200AAB9DA /* PanModal */,
+			);
 			productName = AgoraApp;
 			productReference = 9DD9A6902BE3BE79003E5DC3 /* AgoraApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +407,13 @@
 				Base,
 			);
 			mainGroup = 9DD9A6872BE3BE79003E5DC3;
+			packageReferences = (
+				9DD9A6B02BE3BED7003E5DC3 /* XCRemoteSwiftPackageReference "Localize-Swift" */,
+				9DD9A6C32BE3C29B003E5DC3 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				9DCC54E92BE66F6800AAB9DA /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				9DCC55042BE6E2F400AAB9DA /* XCRemoteSwiftPackageReference "VideoUIKit-iOS" */,
+				9DCC552C2BE7A7D200AAB9DA /* XCRemoteSwiftPackageReference "PanModal" */,
+			);
 			productRefGroup = 9DD9A6912BE3BE79003E5DC3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +428,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DBA917C2BE3D584005AF184 /* Sen-Regular.ttf in Resources */,
+				9DD9A6CC2BE3C59E003E5DC3 /* HomeView.storyboard in Resources */,
 				9DD9A6A02BE3BE7A003E5DC3 /* LaunchScreen.storyboard in Resources */,
+				9DCC55292BE7013900AAB9DA /* HomeTableCell.xib in Resources */,
+				9DBA917B2BE3D584005AF184 /* Sen-SemiBold.ttf in Resources */,
+				9DCC54F92BE670A100AAB9DA /* failed.json in Resources */,
+				9DCC54F82BE670A100AAB9DA /* loading.json in Resources */,
+				9DBA917D2BE3D584005AF184 /* Sen-ExtraBold.ttf in Resources */,
+				9DCC54FE2BE6738000AAB9DA /* AddChannelView.storyboard in Resources */,
 				9DD9A69D2BE3BE7A003E5DC3 /* Assets.xcassets in Resources */,
-				9DD9A69B2BE3BE79003E5DC3 /* Main.storyboard in Resources */,
+				9DBA917E2BE3D584005AF184 /* Sen-Medium.ttf in Resources */,
+				9DBA917F2BE3D584005AF184 /* Sen-Bold.ttf in Resources */,
+				9DCC54F72BE670A100AAB9DA /* warning.json in Resources */,
+				9DD9A6C82BE3C492003E5DC3 /* LoginView.storyboard in Resources */,
+				9DCC54FA2BE670A100AAB9DA /* successful.json in Resources */,
+				9DCC550D2BE6E36400AAB9DA /* ChannelView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +454,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DD9A6982BE3BE79003E5DC3 /* ViewController.swift in Sources */,
+				9DD9A6BE2BE3C193003E5DC3 /* LoginViewController.swift in Sources */,
+				9DCC54E32BE66D0100AAB9DA /* HomeViewModel.swift in Sources */,
+				9DCC55192BE6F2B500AAB9DA /* Channel.swift in Sources */,
+				9DD9A6B42BE3BEF6003E5DC3 /* NavigationManager.swift in Sources */,
+				9DCC550F2BE6E52400AAB9DA /* ChannelViewModel.swift in Sources */,
+				9DBA91802BE3D584005AF184 /* AppFont.swift in Sources */,
+				9DCC55212BE6F97200AAB9DA /* NoErrorResult.swift in Sources */,
+				9DCC54F12BE6701900AAB9DA /* String + Ext.swift in Sources */,
 				9DD9A6942BE3BE79003E5DC3 /* AppDelegate.swift in Sources */,
+				9DCC54E52BE66D1400AAB9DA /* BaseViewModel.swift in Sources */,
+				9DD9A6B72BE3BF33003E5DC3 /* BaseNavigationController.swift in Sources */,
+				9DCC54EF2BE66F8900AAB9DA /* BottomAlertPopupViewController.swift in Sources */,
+				9DCC551F2BE6F85B00AAB9DA /* UsernameManager.swift in Sources */,
+				9DD9A6CA2BE3C4C3003E5DC3 /* HomeViewController.swift in Sources */,
+				9DCC55302BE7AAB700AAB9DA /* Date + Ext.swift in Sources */,
+				9DCC55272BE7012D00AAB9DA /* HomeTableCell.swift in Sources */,
+				9DCC55002BE6738D00AAB9DA /* AddChannelViewController.swift in Sources */,
+				9DCC54BD2BE6697000AAB9DA /* PermissionManager.swift in Sources */,
+				9DD9A6C02BE3C1BC003E5DC3 /* BaseViewController.swift in Sources */,
+				9DCC551D2BE6F46400AAB9DA /* ChannelRepository.swift in Sources */,
 				9DD9A6962BE3BE79003E5DC3 /* SceneDelegate.swift in Sources */,
+				9DCC55032BE6E24600AAB9DA /* ChannelViewController.swift in Sources */,
+				9DCC55242BE6FF1000AAB9DA /* ChannelViewController + AgoreVideoViewerDelegate.swift in Sources */,
+				9DD9A6C22BE3C1DB003E5DC3 /* UIColor + Ext.swift in Sources */,
+				9DCC552B2BE79D8B00AAB9DA /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9DD9A6992BE3BE79003E5DC3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9DD9A69A2BE3BE79003E5DC3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9DD9A69E2BE3BE7A003E5DC3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -218,7 +548,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -275,7 +605,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -295,9 +625,9 @@
 				DEVELOPMENT_TEAM = S9VFZVL32A;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AgoraApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AgoraApp;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -323,9 +653,9 @@
 				DEVELOPMENT_TEAM = S9VFZVL32A;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AgoraApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AgoraApp;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -363,6 +693,87 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9DCC54E92BE66F6800AAB9DA /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.3;
+			};
+		};
+		9DCC55042BE6E2F400AAB9DA /* XCRemoteSwiftPackageReference "VideoUIKit-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AgoraIO-Community/VideoUIKit-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.1.1;
+			};
+		};
+		9DCC552C2BE7A7D200AAB9DA /* XCRemoteSwiftPackageReference "PanModal" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yanxiaobing/PanModal";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.3;
+			};
+		};
+		9DD9A6B02BE3BED7003E5DC3 /* XCRemoteSwiftPackageReference "Localize-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/marmelroy/Localize-Swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.2.0;
+			};
+		};
+		9DD9A6C32BE3C29B003E5DC3 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9DCC54EA2BE66F6800AAB9DA /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DCC54E92BE66F6800AAB9DA /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		9DCC55052BE6E2F400AAB9DA /* AgoraAppGroupDataHelper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DCC55042BE6E2F400AAB9DA /* XCRemoteSwiftPackageReference "VideoUIKit-iOS" */;
+			productName = AgoraAppGroupDataHelper;
+		};
+		9DCC55072BE6E2F400AAB9DA /* AgoraBroadcastExtensionHelper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DCC55042BE6E2F400AAB9DA /* XCRemoteSwiftPackageReference "VideoUIKit-iOS" */;
+			productName = AgoraBroadcastExtensionHelper;
+		};
+		9DCC55092BE6E2F400AAB9DA /* AgoraUIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DCC55042BE6E2F400AAB9DA /* XCRemoteSwiftPackageReference "VideoUIKit-iOS" */;
+			productName = AgoraUIKit;
+		};
+		9DCC552D2BE7A7D200AAB9DA /* PanModal */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DCC552C2BE7A7D200AAB9DA /* XCRemoteSwiftPackageReference "PanModal" */;
+			productName = PanModal;
+		};
+		9DD9A6B12BE3BED7003E5DC3 /* Localize_Swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DD9A6B02BE3BED7003E5DC3 /* XCRemoteSwiftPackageReference "Localize-Swift" */;
+			productName = Localize_Swift;
+		};
+		9DD9A6C42BE3C29B003E5DC3 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DD9A6C32BE3C29B003E5DC3 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9DD9A6882BE3BE79003E5DC3 /* Project object */;
 }
